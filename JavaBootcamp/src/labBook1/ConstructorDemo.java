@@ -9,6 +9,7 @@ public class ConstructorDemo {
 }
 
 /**
+ * In Java we have two types of constructors number one default constructor and number two parameterized constructor the main difference between these two constructors is default constructor will not have any parameters to accept whereas parameterized constructor will have one or more parameters to accept we can use these two constructor at the same time within a class but only one constructor will be called when object is created depending upon the call
  * Constructor Overloading
  * Name should be same
  * Parameter name can be same but it is mandate to have different datatype
