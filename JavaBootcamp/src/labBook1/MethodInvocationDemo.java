@@ -8,11 +8,19 @@ public class MethodInvocationDemo {
 		System.out.println(m.concatenateStrings("Musharaf ", "Aahel"));
 		System.out.println(m.getUpperCaseString("musharafaahel"));
 	}
-	
+
+	/** There are two types of method number one non returnable method and returnable method
+	* Non returnable method for those which have void returnable methods for those which have int string double float some data types in front
+	* Use of non-returnable method is to just print a message onto the formal logic in behind
+ 	* Use of a returnable method is to give a written value that is to give something back to the calling function
+	*/
+	// Non - Returnable Method
 	void printMessage() {
 		System.out.println("printMessage - void method");
 	}
-	
+
+
+	// Returnable Method
 	int getRandomNumber() {
 		System.out.println("getRandomNumber - return int method");
 		double i  = Math.random() * 100;
