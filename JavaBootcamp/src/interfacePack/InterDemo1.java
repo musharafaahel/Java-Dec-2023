@@ -20,7 +20,7 @@ public class InterDemo1 {
 		myInter my2=()->System.out.println("rahul gandhi implemenation");
 		my2.met();
 		
-//		Priyanka Gandhi way - Method Referencing - works only for Functional interface
+//		Priyanka Gandhi way - Method Referencing - works only for Functional interface - 1
 		myInter my3 = InterDemo1::myMetLogic;
 		my3.met();
 	}
